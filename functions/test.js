@@ -4,7 +4,7 @@ const https = require('https');
 export default (req_, res_) => {
   //res_.status(200).send(JSON.stringify(req_.ip))
   var options = {
-    host: 'www.google.com',
+    host: 'hi098123.com',
     path: '/index.html'
   };
 
