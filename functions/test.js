@@ -12,8 +12,8 @@ export default (req_, res_) => {
   //  'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
   //)
   var options = {
-    host: 'cf-api.hi098123.com',
-    path: '/info'
+    host: 'api.ip.pe.kr',
+    //path: '/info'
   };
 
   var req = https.get(options, function(res) {
